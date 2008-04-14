@@ -1,0 +1,46 @@
+log analysis
+
+
+search keywords
+ActionController::RoutingError
+
+ActionController::UnknownAction
+ArgumentError
+
+NameError
+
+Completed in 0.01600 (62 reqs/sec) |
+
+
+
+grep "(0 reqs/sec)" development.log
+
+
+
+grep "(0 reqs/sec)" production.log
+
+grep "ActionView" production.log
+grep "ActionController" production.log
+
+
+grep "NameError" production.log
+
+grep "NameError" production.log
+grep "UnknownAction" production.log
+grep "RoutingError" production.log
+grep "TemplateError " production.log
+grep "nil " production.log  #comes generally with template error
+
+
+grep "NameError" development.log
+
+processing with keywords is very cumbersome so there is a need to create a logger which formats in  a linux log processing friendly way
+
+commands to use to process
+cut
+wc -l
+grep
+sort
+uniq
+
+

@@ -1,0 +1,113 @@
+app/views/account/add_profile_form.rhtml
+
+app/views/account/change_password.rhtml
+Syntax OK
+app/views/account/debug.rhtml
+Syntax OK
+app/views/account/editprofile.rhtml
+Syntax OK
+app/views/account/edit_profile_preferences.rhtml
+
+app/views/account/forgot_password.rhtml
+Syntax OK
+app/views/account/guardianprofile.rhtml
+
+app/views/account/index.rhtml
+Syntax OK
+app/views/account/invite.rhtml
+Syntax OK
+app/views/account/invitesignup.rhtml
+
+app/views/account/linkprofile.rhtml
+Syntax OK
+app/views/account/login.rhtml
+Syntax OK
+app/views/account/notification.rhtml
+Syntax OK
+app/views/account/reset_password.rhtml
+
+app/views/account/search.rhtml
+Syntax OK
+app/views/account/showprofile.rhtml
+Syntax OK
+app/views/account/signup.rhtml
+Syntax OK
+app/views/account/viewprofile.rhtml
+Syntax OK
+app/views/account/_account_left.rhtml
+Syntax OK
+app/views/account/_security_answer.rhtml
+Syntax OK
+app/views/account/_security_question.rhtml
+Syntax OK
+app/views/account/_switchprofile.rhtml
+Syntax OK
+app/views/admin/authorize.rhtml
+Syntax OK
+app/views/admin/changepassword.rhtml
+Syntax OK
+app/views/admin/dash_board.rhtml
+Syntax OK
+app/views/admin/index.rhtml
+Syntax OK
+app/views/admin/login.rhtml
+Syntax OK
+app/views/admin/logout.rhtml
+Syntax OK
+app/views/admin/manage_invite.rhtml
+Syntax OK
+app/views/admin/manage_scribble.rhtml
+
+app/views/admin/manage_users.rhtml
+Syntax OK
+app/views/admin/other_facets.rhtml
+Syntax OK
+app/views/admin/_admin_left.rhtml
+Syntax OK
+app/views/contacts/addrelative.rhtml
+Syntax OK
+app/views/contacts/family_edit.rhtml
+Syntax OK
+app/views/contacts/family_list.rhtml
+Syntax OK
+app/views/contacts/family_new.rhtml
+Syntax OK
+app/views/contacts/family_show.rhtml
+
+app/views/contacts/groupinvite.rhtml
+Syntax OK
+app/views/contacts/index.rhtml
+Syntax OK
+app/views/contacts/quicksearch.rhtml
+Syntax OK
+app/views/contacts/relationedit.rhtml
+Syntax OK
+app/views/contacts/_contacts_left.rhtml
+Syntax OK
+app/views/contacts/_experience.rhtml
+Syntax OK
+app/views/contacts/_family_form.rhtml
+Syntax OK
+app/views/contacts/_form.rhtml
+Syntax OK
+app/views/contacts/_mycliques.rhtml
+Syntax OK
+app/views/contacts/_mycontacts.rhtml
+Syntax OK
+app/views/contacts/_mynetwork_contacts.rhtml
+Syntax OK
+app/views/contacts/_new.rhtml
+Syntax OK
+app/views/home/about_nthid.rhtml
+Syntax OK
+app/views/home/help.rhtml
+Syntax OK
+app/views/home/index.rhtml
+Syntax OK
+app/views/home/login.rhtml
+Syntax OK
+app/views/home/media.rhtml
+Syntax OK
+app/views/home/privacy_policy.rhtml
+Syntax OK
+app/views/home/terms_of_service.rhtml

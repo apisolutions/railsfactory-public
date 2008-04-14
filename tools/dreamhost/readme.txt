@@ -20,5 +20,10 @@ suggested to use with dreamhost and other sites where you need to kill dispatch.
 
 
 
+manual_deploy.txt
 
+shows a typical set of commands to reproduce the deployment on dreamhost
 
+this naming convention is loosely based on capistrano, but giving the developers the confidence to deploy each time and debug if they face problems
+
+most of our developers were not very comfortable when they started, this helped/forced them to learn some linux console

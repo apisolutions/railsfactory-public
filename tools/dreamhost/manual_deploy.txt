@@ -1,0 +1,51 @@
+ 
+cd  /home/username/projectname.railsfactory.com/
+ 
+rm -rf /home/username/projectname.railsfactory.com/current
+
+svn export  -q  http://svn.railsfactory.com/projectname/ /home/username/projectname.railsfactory.com/current
+
+#if you  need to deploy only specific version
+#svn export  -q  -r200 http://svn.railsfactory.com/projectname/ /home/username/projectname.railsfactory.com/current
+
+cd /home/username/projectname.railsfactory.com/current
+
+rake migrate RAILS_ENV=production
+
+ruby pk.rb
+
+
+ruby script/runner -e production 'ActiveRecord::Base.connection.execute("UPDATE schema_info SET version = 0")'
+ruby script/runner -e production 'ActiveRecord::Base.connection.execute("DROP TABLE IF EXISTS restaurants, cuisines, menus, restaurantcuisines, restaurantmenus, sessions, roles, users, schema_info, roles_users;")'
+
+ruby script/console production
+
+
+#optional scripts
+
+
+#rake log:clear 
+
+rake mail:config SERVER=beta
+
+rake db:sessions:clear RAILS_ENV=production
+
+#to rebuild the compressed js and css file
+#rake asset:packager:build_all RAILS_ENV=production
+
+
+#check validity of existing data in the model
+rake db:validate_models RAILS_ENV=production
+
+#recreate ferret index this will avoid errors like segmentation faults
+#rake db:reindex RAILS_ENV=production
+
+
+#original referenced folder is present in svn but is used as symlinked folder on production
+#rmdir /home/username/projectname.railsfactory.com/current/public/images/generated
+
+#ln -nfs /home/username/projectname.railsfactory.com/generated /home/username/projectname.railsfactory.com/current/public/images/generated
+
+
+# if you copy the database config file from some other folder in production
+cp /home/username/projectname.railsfactory.com/database.yml /home/username/projectname.railsfactory.com/current/config/database.yml

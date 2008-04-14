@@ -15,6 +15,13 @@ I prefer the partials to contain the whole code block so that the compile always
 known issues:
 since erb is used directly, standard error is not captured and will occassionally generate some strange file, based on syntax, which could be deleted easily
 
+od2
+inspired from  linux od command
+http://linux.about.com/library/cmd/blcmdl_od.htm
+
+displays the file and line number and the octal character representation of the non-ASCII characters
+
+
 
 
 fic.rb

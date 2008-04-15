@@ -1,0 +1,40 @@
+
+
+dreamhost uses Fastcgi for excuting the scripts
+
+you need to configure the app to modify the ruby path in shebang line in public/dispatch.fcgi
+#!/usr/bin/env ruby
+
+and make it executable, but I prefer to do it on svn as it will set the permission whenever we do fresh checkouts/deployment
+
+
+on public/.htaccess from dispatch.cgi to dispatch.fcgi
+RewriteRule ^(.*)$ dispatch.fcgi [QSA,L]
+
+on config/environment.rb
+ ENV['RAILS_ENV'] ||= 'production'
+
+
+#svn commands from project root folder
+svn remove log/*
+svn propset svn:ignore "*.*" log/
+
+svn remove tmp/sessions/*
+svn propset svn:ignore "*.*" tmp/sessions/
+svn propset svn:ignore "*.*" tmp/cache/
+svn propset svn:ignore "*.*" tmp/sockets/
+
+if you use folders which will have dynamically generated content, uploaded file, please ignore them as well, and later symilink as described in manual_deploy.txt
+
+
+svn remove public/images/Thumbs.db
+svn propset svn:ignore "Thumbs.db" public/images/
+
+
+svn propset svn:executable ON public/dispatch.fcgi
+
+
+svn ci -m "removing tmp session files, thumbnail index and ignoring them in the future"
+svn up
+
+

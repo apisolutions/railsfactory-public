@@ -1,0 +1,237 @@
+(in C:/nthid/release/facetplay)
+                            "" => {:action=>"login", :controller=>"account"}
+    ":controller/service.wsdl" => {:action=>"wsdl"}
+"facets/myplanner/:year/:month/:day" => {:action=>"myplanner", :controller=>"facets"}
+"facets/wepage_view_msg/:year/:month/:day" => {:action=>"wepage_view_msg", :controller=>"facets"}
+     ":controller/:action/:id" => {}
+                      "search" => {:action=>"search", :controller=>"admin"}
+                "sessionclear" => {:action=>"sessionclear", :controller=>"admin"}
+                        "list" => {:action=>"list", :controller=>"admin"}
+                        "show" => {:action=>"show", :controller=>"admin"}
+                  "dash_board" => {:action=>"dash_board", :controller=>"admin"}
+                       "login" => {:action=>"login", :controller=>"admin"}
+                "manage_users" => {:action=>"manage_users", :controller=>"admin"}
+                "other_facets" => {:action=>"other_facets", :controller=>"admin"}
+               "manage_invite" => {:action=>"manage_invite", :controller=>"admin"}
+                      "logout" => {:action=>"logout", :controller=>"admin"}
+                          "su" => {:action=>"su", :controller=>"admin"}
+                   "authorize" => {:action=>"authorize", :controller=>"admin"}
+                            "" => {:action=>"new_cruiser", :controller=>"facets"}
+                        "nbox" => {:action=>"nbox", :controller=>"facets"}
+              "manage_account" => {:action=>"manage_account", :controller=>"facets"}
+             "browse_elements" => {:action=>"browse_elements", :controller=>"facets"}
+             "expand_root/:id" => {:action=>"expand_root", :controller=>"facets"}
+              "add_nblock/:id" => {:action=>"add_nblock", :controller=>"facets"}
+                 "alpha_facet" => {:action=>"alpha_facet", :controller=>"facets"}
+            "connections_home" => {:action=>"connections_home", :controller=>"facets"}
+              "facet_add_vote" => {:action=>"facet_add_vote", :controller=>"facets"}
+            "toggle_check/:id" => {:action=>"toggle_check", :controller=>"facets"}
+     "juggle_photo_upload/:id" => {:action=>"juggle_photo_upload", :controller=>"facets"}
+      "juggle_facet_color/:id" => {:action=>"juggle_facet_color", :controller=>"facets"}
+          "update_facet_color" => {:action=>"update_facet_color", :controller=>"facets"}
+          "update_facet_photo" => {:action=>"update_facet_photo", :controller=>"facets"}
+         "update_facet_filter" => {:action=>"update_facet_filter", :controller=>"facets"}
+            "facet_slide_show" => {:action=>"facet_slide_show", :controller=>"facets"}
+     "change_facet_online/:id" => {:action=>"change_facet_online", :controller=>"facets"}
+    "default_facet_online/:id" => {:action=>"default_facet_online", :controller=>"facets"}
+                "create_facet" => {:action=>"new_create_facet", :controller=>"facets"}
+           "edit_facet/:facet" => {:action=>"edit_facet", :controller=>"facets"}
+          "new_edit_facet/:id" => {:action=>"new_edit_facet", :controller=>"facets"}
+            "update_facet/:id" => {:action=>"update_facet", :controller=>"facets"}
+"edit_facet_notifications/:id" => {:action=>"edit_facet_notifications", :controller=>"facets"}
+"update_facet_notification/:id" => {:action=>"update_facet_notification", :controller=>"facets"}
+    "delete_othercalendar/:id" => {:action=>"delete_othercalendar", :controller=>"facets"}
+         "delete_calendar/:id" => {:action=>"delete_calendar", :controller=>"facets"}
+           "edit_calendar/:id" => {:action=>"edit_calendar", :controller=>"facets"}
+         "manage_my_calendars" => {:action=>"manage_my_calendars", :controller=>"facets"}
+      "manage_other_calendars" => {:action=>"manage_other_calendars", :controller=>"facets"}
+           "manage_groups/:id" => {:action=>"manage_groups", :controller=>"facets"}
+           "manage_places/:id" => {:action=>"manage_places", :controller=>"facets"}
+           "manage_events/:id" => {:action=>"manage_events", :controller=>"facets"}
+            "view_friends/:id" => {:action=>"view_friends", :controller=>"facets"}
+"view_connection_latest_photos" => {:action=>"view_connection_latest_photos", :controller=>"facets"}
+          "manage_friends/:id" => {:action=>"manage_friends", :controller=>"facets"}
+              "delete_friends" => {:action=>"delete_friends", :controller=>"facets"}
+                  "add_friend" => {:action=>"add_friend", :controller=>"facets"}
+                "add_user/:id" => {:action=>"add_user", :controller=>"facets"}
+               "aboutview/:id" => {:action=>"aboutview", :controller=>"facets"}
+                  "wepage/:id" => {:action=>"wepage", :controller=>"facets"}
+          "myrelationship/:id" => {:action=>"myrelationship", :controller=>"facets"}
+    "change_connection_status" => {:action=>"change_connection_status", :controller=>"facets"}
+         "full_recent_msg/:id" => {:action=>"full_recent_msg", :controller=>"facets"}
+         "wepage_view_msg/:id" => {:action=>"wepage_view_msg", :controller=>"facets"}
+      "wepage_view_friend/:id" => {:action=>"wepage_view_friend", :controller=>"facets"}
+            "selectedcategory" => {:action=>"selectedcategory", :controller=>"facets"}
+             "create_calendar" => {:action=>"create_calendar", :controller=>"facets"}
+         "facet_status_id/:id" => {:action=>"facet_status_id", :controller=>"facets"}
+                 "addevent_id" => {:action=>"addevent_id", :controller=>"facets"}
+            "add_hourevent_id" => {:action=>"add_hourevent_id", :controller=>"facets"}
+                   "facet/:id" => {:action=>"show_facet", :controller=>"facets"}
+              "show_facet/:id" => {:action=>"show_facet", :controller=>"facets"}
+           "facetassembly/:id" => {:action=>"facetassembly", :controller=>"facets"}
+                  "delete_msg" => {:action=>"delete_msg", :controller=>"facets"}
+                    "messages" => {:action=>"messages", :controller=>"facets"}
+         "eventlist/:calendar" => {:action=>"eventlist", :controller=>"facets"}
+            "update_event/:id" => {:action=>"update_event", :controller=>"facets"}
+    "planner_update_event/:id" => {:action=>"planner_update_event", :controller=>"facets"}
+            "update_event/:id" => {:action=>"update_event", :controller=>"facets"}
+        "search_eventshow/:id" => {:action=>"search_eventshow", :controller=>"facets"}
+              "event_show/:id" => {:action=>"event_show", :controller=>"facets"}
+              "event_edit/:id" => {:action=>"event_edit", :controller=>"facets"}
+      "planner_event_edit/:id" => {:action=>"planner_event_edit", :controller=>"facets"}
+           "event_destroy/:id" => {:action=>"event_destroy", :controller=>"facets"}
+           "new_calendarevent" => {:action=>"new_calendarevent", :controller=>"facets"}
+                "create_event" => {:action=>"create_event", :controller=>"facets"}
+          "del_connection/:id" => {:action=>"del_connection", :controller=>"facets"}
+           "delete_connection" => {:action=>"delete_connection", :controller=>"facets"}
+               "wepage_filter" => {:action=>"wepage_filter", :controller=>"facets"}
+              "planner_filter" => {:action=>"planner_filter", :controller=>"facets"}
+                   "myplanner" => {:action=>"myplanner", :controller=>"facets"}
+                    "quickadd" => {:action=>"quickadd", :controller=>"facets"}
+                 "choose_date" => {:action=>"choose_date", :controller=>"facets"}
+               "invite_people" => {:action=>"invite_people", :controller=>"facets"}
+                  "resend/:id" => {:action=>"resend", :controller=>"facets"}
+               "myinvitations" => {:action=>"myinvitations", :controller=>"facets"}
+               "delete_invite" => {:action=>"delete_invite", :controller=>"facets"}
+          "invite_decline/:id" => {:action=>"invite_decline", :controller=>"facets"}
+       "invite_add_connection" => {:action=>"invite_add_connection", :controller=>"facets"}
+           "invite_accept/:id" => {:action=>"invite_accept", :controller=>"facets"}
+            "facet_filter/:id" => {:action=>"facet_filter", :controller=>"facets"}
+         "recommendfriend/:id" => {:action=>"recommendfriend", :controller=>"facets"}
+             "note_delete/:id" => {:action=>"note_delete", :controller=>"facets"}
+                  "add_mynote" => {:action=>"add_mynote", :controller=>"facets"}
+               "edit_note/:id" => {:action=>"edit_note", :controller=>"facets"}
+             "add_element/:id" => {:action=>"add_element", :controller=>"facets"}
+                            "" => {:action=>"login", :controller=>"account"}
+             "change_password" => {:action=>"change_password", :controller=>"account"}
+                "request_save" => {:action=>"request_save", :controller=>"account"}
+             "selectedprofile" => {:action=>"selectedprofile", :controller=>"account"}
+            "selectedcalendar" => {:action=>"selectedcalendar", :controller=>"account"}
+       "selectedothercalendar" => {:action=>"selectedothercalendar", :controller=>"account"}
+                      "signup" => {:action=>"signup", :controller=>"account"}
+                "invitesignup" => {:action=>"invitesignup", :controller=>"account"}
+                      "logout" => {:action=>"logout", :controller=>"account"}
+                    "activate" => {:action=>"activate", :controller=>"account"}
+             "forgot_password" => {:action=>"forgot_password", :controller=>"account"}
+              "reset_password" => {:action=>"reset_password", :controller=>"account"}
+           "switchprofile/:id" => {:action=>"switchprofile", :controller=>"account"}
+                      "invite" => {:action=>"invite", :controller=>"account"}
+"auto_complete_for_email_recipients" => {:action=>"auto_complete_for_email_recipients", :controller=>"email"}
+  "auto_complete_for_email_cc" => {:action=>"auto_complete_for_email_cc", :controller=>"email"}
+ "auto_complete_for_email_bcc" => {:action=>"auto_complete_for_email_bcc", :controller=>"email"}
+           "set_mail_read/:id" => {:action=>"set_mail_read", :controller=>"email"}
+                   "share/:id" => {:action=>"share", :controller=>"email"}
+                 "unshare/:id" => {:action=>"unshare", :controller=>"email"}
+                  "delete/:id" => {:action=>"delete", :controller=>"email"}
+                "undelete/:id" => {:action=>"undelete", :controller=>"email"}
+                     "compose" => {:action=>"compose", :controller=>"email"}
+                       "reply" => {:action=>"reply", :controller=>"email"}
+             "interact_search" => {:action=>"interact_search", :controller=>"stuff"}
+                     "connect" => {:action=>"connect", :controller=>"stuff"}
+           "delete_connection" => {:action=>"delete_connection", :controller=>"stuff"}
+            "edit_contact/:id" => {:action=>"edit_contact", :controller=>"stuff"}
+          "delete_contact/:id" => {:action=>"delete_contact", :controller=>"stuff"}
+              "create_contact" => {:action=>"create_contact", :controller=>"stuff"}
+                "contact_save" => {:action=>"contact_save", :controller=>"stuff"}
+               "browse_people" => {:action=>"browse_people", :controller=>"stuff"}
+            "add_calendar/:id" => {:action=>"add_calendar", :controller=>"stuff"}
+                "view_members" => {:action=>"view_members", :controller=>"stuff"}
+                   "image/:id" => {:action=>"image", :controller=>"stuff"}
+                "view_all/:id" => {:action=>"view_all", :controller=>"nblock"}
+         "manage_elements/:id" => {:action=>"manage_elements", :controller=>"nblock"}
+          "create_sharedspace" => {:action=>"create_sharedspace", :controller=>"sharedspace"}
+                            "" => {:action=>"sharedspaces_home", :controller=>"sharedspace"}
+                    "show/:id" => {:action=>"show", :controller=>"sharedspace"}
+        "edit_sharedspace/:id" => {:action=>"edit_sharedspace", :controller=>"sharedspace"}
+            "post_comment/:id" => {:action=>"post_comment", :controller=>"sharedspace"}
+           "view_comments/:id" => {:action=>"view_comments", :controller=>"sharedspace"}
+         "manage_comments/:id" => {:action=>"manage_comments", :controller=>"sharedspace"}
+              "delete_comment" => {:action=>"delete_comment", :controller=>"sharedspace"}
+                "addphoto/:id" => {:action=>"addphoto", :controller=>"sharedspace"}
+           "manage_photos/:id" => {:action=>"manage_photos", :controller=>"sharedspace"}
+            "manage_polls/:id" => {:action=>"manage_polls", :controller=>"sharedspace"}
+                "delete_photo" => {:action=>"delete_photo", :controller=>"sharedspace"}
+"sharedspace_manage_connections/:id" => {:action=>"sharedspace_manage_connections", :controller=>"sharedspace"}
+           "delete_connection" => {:action=>"delete_connection", :controller=>"sharedspace"}
+               "post_blog/:id" => {:action=>"post_blog", :controller=>"sharedspace"}
+     "view_forum/:sharedspace" => {:action=>"view_forum", :controller=>"sharedspace"}
+                  "reply_blog" => {:action=>"reply_blog", :controller=>"sharedspace"}
+           "view_all_blog/:id" => {:action=>"view_all_blog", :controller=>"sharedspace"}
+             "manage_blog/:id" => {:action=>"manage_blog", :controller=>"sharedspace"}
+      "manage_forum_reply/:id" => {:action=>"manage_forum_reply", :controller=>"sharedspace"}
+      "delete_forum_reply/:id" => {:action=>"delete_forum_reply", :controller=>"sharedspace"}
+     "view_all_connection/:id" => {:action=>"view_all_connection", :controller=>"sharedspace"}
+                        "list" => {:action=>"list", :controller=>"sharedspace"}
+           "view_all_tasklist" => {:action=>"view_all_tasklist", :controller=>"sharedspace"}
+               "completed/:id" => {:action=>"completed", :controller=>"sharedspace"}
+                  "new_nblock" => {:action=>"new_nblock", :controller=>"sharedspace"}
+                    "new_todo" => {:action=>"new_todo", :controller=>"sharedspace"}
+                      "update" => {:action=>"update", :controller=>"sharedspace"}
+               "update_action" => {:action=>"update_action", :controller=>"sharedspace"}
+                       "show1" => {:action=>"show1", :controller=>"sharedspace"}
+                     "destroy" => {:action=>"destroy", :controller=>"sharedspace"}
+                       "order" => {:action=>"order", :controller=>"sharedspace"}
+                    "add_item" => {:action=>"add_item", :controller=>"sharedspace"}
+              "destroy_action" => {:action=>"destroy_action", :controller=>"sharedspace"}
+               "toggle_check1" => {:action=>"toggle_check1", :controller=>"sharedspace"}
+                   "add_item1" => {:action=>"add_item1", :controller=>"sharedspace"}
+                       "list1" => {:action=>"list1", :controller=>"sharedspace"}
+      "change_member_role/:id" => {:action=>"change_member_role", :controller=>"sharedspace"}
+      "check_user_return_item" => {:action=>"check_user_return_item", :controller=>"sharedspace"}
+          "invite_connections" => {:action=>"invite_connections", :controller=>"sharedspace"}
+                    "new_poll" => {:action=>"new_poll", :controller=>"sharedspace"}
+                "add_vote/:id" => {:action=>"add_vote", :controller=>"sharedspace"}
+           "addpolloption/:id" => {:action=>"addpolloption", :controller=>"sharedspace"}
+ "viewpolls_addpolloption/:id" => {:action=>"viewpolls_addpolloption", :controller=>"sharedspace"}
+              "pollresult/:id" => {:action=>"pollresult", :controller=>"sharedspace"}
+             "view_photos/:id" => {:action=>"view_photos", :controller=>"sharedspace"}
+              "view_polls/:id" => {:action=>"view_polls", :controller=>"sharedspace"}
+    "viewpolls_add_vote/:vote" => {:action=>"viewpolls_add_vote", :controller=>"sharedspace"}
+      "sharedspace_delete/:id" => {:action=>"sharedspace_delete", :controller=>"sharedspace"}
+"sharedspace_membership_remove/:id" => {:action=>"sharedspace_membership_remove", :controller=>"sharedspace"}
+            "delete_blogs/:id" => {:action=>"delete_blogs", :controller=>"sharedspace"}
+"nblocks/blog/view_forums/:id" => {:action=>"view_forums", :controller=>"nblocks/blog"}
+"nblocks/blog/manage_forums/:id" => {:action=>"manage_forums", :controller=>"nblocks/blog"}
+  "nblocks/blog/delete_forums" => {:action=>"delete_forums", :controller=>"nblocks/blog"}
+     "nblocks/blog/post_forum" => {:action=>"post_forum", :controller=>"nblocks/blog"}
+    "nblocks/blog/reply_forum" => {:action=>"reply_forum", :controller=>"nblocks/blog"}
+   "nblocks/blog/reply_forum1" => {:action=>"reply_forum1", :controller=>"nblocks/blog"}
+ "nblocks/blog/view_forum/:id" => {:action=>"view_forum", :controller=>"nblocks/blog"}
+      "manage_forum_reply/:id" => {:action=>"manage_forum_reply", :controller=>"nblocks/blog"}
+      "delete_forum_reply/:id" => {:action=>"delete_forum_reply", :controller=>"nblocks/blog"}
+"nblocks/comment/post_comment" => {:action=>"post_comment", :controller=>"nblocks/comment"}
+"nblocks/comment/manage_comments/:id" => {:action=>"manage_comments", :controller=>"nblocks/comment"}
+"nblocks/comment/view_comments/:id" => {:action=>"view_comments", :controller=>"nblocks/comment"}
+"nblocks/comment/delete_comment/:id" => {:action=>"delete_comment", :controller=>"nblocks/comment"}
+      "nblocks/photo/addphoto" => {:action=>"addphoto", :controller=>"nblocks/photo"}
+"nblocks/photo/view_photos/:id" => {:action=>"view_photos", :controller=>"nblocks/photo"}
+"nblocks/photo/manage_photos/:id" => {:action=>"manage_photos", :controller=>"nblocks/photo"}
+"nblocks/photo/delete_photo/:id" => {:action=>"delete_photo", :controller=>"nblocks/photo"}
+        "nblocks/poll/addpoll" => {:action=>"addpoll", :controller=>"nblocks/poll"}
+"nblocks/poll/viewpolls_add_vote" => {:action=>"viewpolls_add_vote", :controller=>"nblocks/poll"}
+"nblocks/poll/viewpolls_addpolloption/:id" => {:action=>"viewpolls_addpolloption", :controller=>"nblocks/poll"}
+"nblocks/poll/viewpolls_add_vote1" => {:action=>"viewpolls_add_vote1", :controller=>"nblocks/poll"}
+"nblocks/poll/viewpolls_addpolloption1/:id" => {:action=>"viewpolls_addpolloption1", :controller=>"nblocks/poll"}
+"nblocks/poll/manage_polls/:id" => {:action=>"manage_polls", :controller=>"nblocks/poll"}
+"nblocks/poll/delete_polls/:id" => {:action=>"delete_polls", :controller=>"nblocks/poll"}
+"nblocks/poll/show_view_polls/:id" => {:action=>"show_view_polls", :controller=>"nblocks/poll"}
+                        "list" => {:action=>"list", :controller=>"nblocks/tasklist"}
+               "view_all_list" => {:action=>"view_all_list", :controller=>"nblocks/tasklist"}
+               "completed/:id" => {:action=>"completed", :controller=>"nblocks/tasklist"}
+                  "new_nblock" => {:action=>"new_nblock", :controller=>"nblocks/tasklist"}
+                    "new_todo" => {:action=>"new_todo", :controller=>"nblocks/tasklist"}
+                      "update" => {:action=>"update", :controller=>"nblocks/tasklist"}
+                        "show" => {:action=>"show", :controller=>"nblocks/tasklist"}
+                     "destroy" => {:action=>"destroy", :controller=>"nblocks/tasklist"}
+                       "order" => {:action=>"order", :controller=>"nblocks/tasklist"}
+                    "add_item" => {:action=>"add_item", :controller=>"nblocks/tasklist"}
+              "destroy_action" => {:action=>"destroy_action", :controller=>"nblocks/tasklist"}
+              "destroy_action" => {:action=>"destroy_action", :controller=>"nblocks/tasklist"}
+                "toggle_check" => {:action=>"toggle_check", :controller=>"nblocks/tasklist"}
+                            "" => {:action=>"index", :controller=>"nblocks/todo"}
+                        "list" => {:action=>"list", :controller=>"nblocks/todo"}
+                "toggle_check" => {:action=>"toggle_check", :controller=>"nblocks/todo"}
+               "update_action" => {:action=>"update_action", :controller=>"nblocks/todo"}
+             "destroy_action1" => {:action=>"destroy_action1", :controller=>"nblocks/todo"}
+                 "edit_action" => {:action=>"edit_action", :controller=>"nblocks/todo"}
+                   "*anything" => {:action=>"catchall", :controller=>"home"}

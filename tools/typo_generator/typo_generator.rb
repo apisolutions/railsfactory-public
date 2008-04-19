@@ -3,6 +3,8 @@
 typo_builder
 I have encountered this requirement many times, when a search is made and the resultset is very small or no results are found, it is suspected the query many have a typing mistake(typo) and we need to provide either alternate search or provide other options which include "did you mean ####"
 
+I have used these techniues in a travel search engine, vertical search engine for real estate, generally applicable to most user generated content
+
 general  suggestions would be based on suggesting synonyms, word stemming etc.
 
 but what required was a method to build those typos, and use it to search effectiveness of algorithms or seed these as equivalent word, I did not use a spellchecker based implementation

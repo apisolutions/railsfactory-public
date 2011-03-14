@@ -1,0 +1,6 @@
+#gives a list of files sorted with maximum scope for fixes
+rails_best_practices . | sort | cut -f1 -d':' | uniq -c | sort -r
+
+
+#types of errors and count , only possible issue is before_filter is cluttered
+rails_best_practices . | sort  | cut -f2 -d'-' | cut -f1 -d'(' | sort | uniq -c | sort -r

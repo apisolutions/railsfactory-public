@@ -1,0 +1,56 @@
+
+a sample sphinx data analysis, calculating statistics for queries over 2 seconds
+
+
+log file processing is a developers job
+
+sample data from sphinx.query.log
+
+[Tue Mar 29 04:39:33.710 2011] 0.034 sec [ext2/2/ext 2 (0,15)] [product_core] @(cns1,cns2,cns3) Ian Fleming
+[Tue Mar 29 04:57:04.737 2011] 2.671 sec [ext2/6/ext 421 (0,15)] [product_core]
+
+cat searchd.query.log | cut -d']' -f2| cut -d'[' -f1 | cut -d' ' -f2 |sort -n| ruby stats.rb
+
+
+explanation 
+
+intent is to get the "0.034 sec " component from the line
+
+cat cat searchd.query.log
+dump the file to STDOUT
+
+#input
+[Tue Mar 29 04:39:33.710 2011] 0.034 sec [ext2/2/ext 2 (0,15)] [product_core]
+
+|
+redirects the output of previous command as input for the subsequent command
+
+input
+#[Tue Mar 29 04:39:33.710 2011] 0.034 sec [ext2/2/ext 2 (0,15)] [product_core]
+
+cut -d']' -f2
+from the line using closing square bracket as a delimiter for the line splitting
+
+#input
+ 0.034 sec [ext2/2/ext 2 (0,15)
+
+cut -d'[' -f1
+#input
+ 0.034 sec 
+
+ cut -d' ' -f2
+
+#input
+0.034
+
+sort -n
+#sort numerically
+
+ruby stats.rb #change the timing to 2 seconds there
+#process all the data and show statistically significant information
+
+#output
+item count, average and standard deviation
+15765
+3.42995090390105
+11.1666453220997
